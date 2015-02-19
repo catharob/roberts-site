@@ -1,0 +1,23 @@
+/*
+Author: Catherine Roberts
+*/
+h1 {
+	color: #1B3F8B;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+body {
+	background-color: #F0F0F0;
+}
+#content {
+	font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+a:link {
+	color: #1B3F8B;
+}
+a:visited {
+	color: #4682B4;
+}
+a:hover {
+	color: #70DBDB;
+}
