@@ -2,21 +2,23 @@
 Author: Catherine Roberts
 */
 #header{
-	height:400;
+	height:1000;
 	width:1000;
-	position: relative;
 }
 #header_image {
-	position: absolute;
-	margin-right: auto;
-	margin-left: auto;
+	position: relative;
+	top:0;
+	left:0;
 	z-index: 1;
+
 }
-#title.byline{
+#title.byline {
 	z-index: 100;
-	position: absolute;
-	top:350px;
-	left:20px;
+	position:absolute;
+	top:0;
+	left:0;
+	color:red;
+	background-color: blue;
 }
 
 
