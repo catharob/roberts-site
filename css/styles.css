@@ -2,30 +2,101 @@
 Author: Catherine Roberts
 */
 #header{
-	height:1000;
-	width:1000;
+	height:400px;
+	width:1000px;
+	margin-right: auto;
+	margin-left: auto;
 }
 #header_image {
 	position: relative;
-	top:0;
-	left:0;
 	z-index: 1;
-
 }
-#title.byline {
+#title_byline {
 	z-index: 100;
 	position:absolute;
-	top:0;
-	left:0;
-	color:red;
-	background-color: blue;
+	top:300px;
+	width:1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#title{
+	width:500px;
+	height:100px;
+	top:40px;
+	left:10px;
+	position:absolute;
+}
+#byline{
+	float:right;
+	position: relative;
+	top:50px;
+	right:10px;
 }
 
-
-
-
 #nutgraf_navigation{
-	margin-top: 350px;
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+#nutgraf{
+	margin-bottom: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 660px;
+}
+
+#navigation{
+	width:660px;
+	height:80px;
+	margin-right: auto;
+	margin-left:auto;
+}
+#navigation ul{
+	list-style-type: none;
+	left:0;
+	margin:0;
+	padding:0;
+}
+.game_icon{
+	width:200px;
+	height:150px;
+	float:left;
+	margin-left: 10px;
+	margin-right: 10px;	
+}
+.game_icon p{
+	text-align: center;
+}
+.icon_image{
+	width:60px;
+	margin: 0 auto;
+	position: relative;
+	left:70;
+}
+#body{
+	width: 660px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.profile{
+	position: relative;
+	width:660px;
+	height: 400px;
+	margin-bottom: 30px;
+}
+.profile_text{
+	float:left;
+}
+.profile_video{
+	border: 1px solid black;
+	width:400px;
+	height:300px;
+	float:right;
+	margin-left: 15px;
+	margin-bottom: 15px;
 }
 
 
