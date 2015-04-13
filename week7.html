@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Week 7 - Arrays, Objects and Loops</title>
+</head>
+<body>
+  <h1 id="headline">Storing Data in JavaScript</h1>
+  <ul id="list"></ul>
+
+  <script>
+  var books = ['Lost','House','Buffy','West Wing','Arrested Development'];
+  console.log(books);
+  console.log(books[2]);
+
+
+  for(var i = 0 ; i < books.length; i++ ){
+  	console.log(books[i]);
+  	var item = document.createElement('li');
+  	var book = document.createTextNode(books[i]);
+  	item.appendChild(book);
+  	var container = document.getElementById('list');
+  	container.appendChild(item);
+  }
+
+  document.getElementById('headline').innerHTML = 'My Favorite Shows';
+
+
+
+  var favoriteShow = {
+  	title: 'Buffy',
+  	creator: 'Joss Whedon',
+  	lead: 'SMG'
+  }
+  console.log(favoriteShow);
+  console.log(favoriteShow.creator)
+
+
+
+  </script>
+</body>
+</html>

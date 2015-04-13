@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Carousel Exercise</title>
+  <link rel="stylesheet" href="slick/slick.css" />
+</head>
+<body>
+  <h1 id="headline">Photos</h1>
+
+  <div class="photo-carousel">
+  <div><img src="images/carousel/image1.jpg" /></div>
+  <div><img src="images/carousel/image2.jpg" /></div>
+  <div><img src="images/carousel/image3.jpg" /></div>
+  <div><img src="images/carousel/image4.jpg" /></div>
+  <div><img src="images/carousel/image5.jpg" /></div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script>
+    $(document).ready(function(){
+    	$('.photo-carousel').slick({
+    		autoplay:true,
+    		autoplaySpeed:6000
+    	});
+    })
+  </script>
+</body>
+</html>

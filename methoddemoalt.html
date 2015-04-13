@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Method Demo</title>
+</head>
+<body>
+  <h1 id="headline">Animate Method</h1>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+ $(document).ready(function(){
+  
+        $("#firstBox").animate({
+            left: '300px',
+            height: '100px',
+            width: '100px'
+          }, "slow");
+      
+  });
+ $(document).ready(function(){
+    $("#secondButton").click(function(){
+        var secondDiv = $("#secondBox");
+        secondDiv.animate({height: '400px', width: '400px'}, "slow");
+        secondDiv.animate({height: '300px', width: '300px'}, "slow");
+        secondDiv.animate({height: '500px', width: '500px'}, "slow");
+        secondDiv.animate({height: '400px', width: '400px'}, "slow");
+        secondDiv.animate({height: '600px', width: '600px'}, "slow");
+        secondDiv.animate({height: '200px', width: '200px'}, "slow");
+    })
+ })
+
+
+  </script>
+
+ 
+  <div id="firstBox"style="background:#551A8B;height:200px;width:200px;position:relative;"></div>
+
+  <button id="secondButton">Animate again!</button>
+  <div id="secondBox"style="background:#4DBD33;height:200px;width:200px;position:relative;"></div>
+
+</body>
+</html>
